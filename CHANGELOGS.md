@@ -5,14 +5,18 @@ sunnypilot - 0.9.7.0 (2024-xx-xx)
 ************************
 * UPDATED: Synced with commaai's openpilot
   * master commit 56e343b (February 27, 2024)
-* NEW❗: Config Backup (Alpha access only for GitHub Sponsors and Patreon supporters)
-  * Remotely back up and restore sunnypilot settings easily
-  * Device registration with sunnylink ensures a secure, integrated experience across services
-  * AES encryption derived from the device's RSA private key is used for utmost security
-  * Settings are encrypted on-device, transmitted securely via HTTPS, and stored encrypted on sunnylink
-  * Prevents loss of settings after device resets, offering peace of mind through end-to-end encryption
-  * Early alpha access to all current and previous GitHub Sponsors and Patreon supporters
-    * Go to https://discord.gg/sunnypilot and reach out to one of the moderators to confirm your alpha access
+* UPDATED: Bumping mapd by [@pfeiferj](https://github.com/pfeiferj) to version [v1.9.0](https://github.com/pfeiferj/mapd/releases/tag/v1.9.0).
+* NEW❗: sunnylink (Alpha early access)
+  * NEW❗: Config Backup
+    * Remotely back up and restore sunnypilot settings easily
+    * Device registration with sunnylink ensures a secure, integrated experience across services
+    * AES encryption derived from the device's RSA private key is used for utmost security
+    * Settings are encrypted on-device, transmitted securely via HTTPS, and stored encrypted on sunnylink
+    * Prevents loss of settings after device resets, offering peace of mind through end-to-end encryption
+    * Early alpha access to all current and previous GitHub Sponsors and Patreon supporters
+  * GitHub account pairing from device settings scanning QR code
+    * Pairing your account will allow you to access features via our API (still WIP but accessible if you dig a little on our code 😉)
+    * Allow inheritance of your sponsorship status, allowing you to get extra features and early access whenever applicable
 * NEW❗: iOS Siri Shortcuts Navigation support thanks to twilsonco and mike86437!
   * iOS and macOS Shortcuts to quickly set navigation destinations from your iOS device
   * comma Prime support
@@ -23,9 +27,13 @@ sunnypilot - 0.9.7.0 (2024-xx-xx)
     * Improve lead tracking when using openpilot longitudinal
 * NEW❗: Ford CAN-FD longitudinal
   * NEW❗: Parse speed limit sign recognition from camera for certain supported platforms
+* UPDATED: Neutral Network Lateral Control (NNLC)
+  * FIXED: Hotfix for "lazy" steering performance in tighter curves thanks to twilsonco!
 * RE-ENABLED: Map-based Turn Speed Control (M-TSC) for supported platforms
   * openpilot Longitudianl Control available cars
   * Custom Stock Longitudinal Control available cars
+* UPDATED: Reset Mapbox Access Token -> Reset Access Tokens for Map Services
+  * Reset self-service access tokens for Mapbox, Amap, and Google Maps
 * UI Updates
   * Display Metrics Below Chevron
     * NEW❗: Metrics is now being displayed below the chevron instead of above
