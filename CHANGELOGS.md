@@ -27,6 +27,9 @@ sunnypilot - 0.9.7.0 (2024-xx-xx)
     * Improve lead tracking when using openpilot longitudinal
 * NEW❗: Ford CAN-FD longitudinal
   * NEW❗: Parse speed limit sign recognition from camera for certain supported platforms
+* NEW❗: Forced Offroad mode
+  * Force sunnypilot in the offroad state even when the car is on
+  * When Forced Offroad mode is on, allows changing offroad-only settings even when the car is turned on
 * UPDATED: Neutral Network Lateral Control (NNLC)
   * FIXED: Hotfix for "lazy" steering performance in tighter curves thanks to twilsonco!
 * RE-ENABLED: Map-based Turn Speed Control (M-TSC) for supported platforms
