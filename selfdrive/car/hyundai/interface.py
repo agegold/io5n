@@ -250,9 +250,10 @@ class CarInterface(CarInterfaceBase):
       ret.wheelbase = 3.09
       ret.steerRatio = 14.23
     elif candidate == CAR.KIA_K8_HEV_1ST_GEN:
+      ret.steerActuatorDelay = 0.1
       ret.mass = 1650.  # https://carprices.ae/brands/kia/2023/k8/1.6-turbo-hybrid
       ret.wheelbase = 2.895
-      ret.steerRatio = 15. # test value
+      ret.steerRatio = 13.5 # test value
 
     # Genesis
     elif candidate == CAR.GENESIS_GV60_EV_1ST_GEN:
