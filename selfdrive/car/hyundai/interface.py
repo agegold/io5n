@@ -186,6 +186,10 @@ class CarInterface(CarInterfaceBase):
       ret.mass = 2205.
       ret.wheelbase = 3.273
       ret.steerRatio = 11.94  # https://www.hyundai.com/content/dam/hyundai/au/en/models/staria-load/premium-pip-update-2023/spec-sheet/STARIA_Load_Spec-Table_March_2023_v3.1.pdf
+    elif candidate == CAR.IONIQ_5_N:
+      ret.mass = 2200.
+      ret.wheelbase = 3.000
+      ret.steerRatio = 12.54  # https://www.hyundainews.com/assets/documents/original/59548-IONIQ5NSpecs040424.pdf
 
     # Kia
     elif candidate == CAR.KIA_SORENTO:
