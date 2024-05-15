@@ -149,10 +149,6 @@ Please use caution when using this feature. Only use the blinker when traffic an
 <context>
     <name>BackupSettings</name>
     <message>
-        <source>Settings backed up for sunnylink Device ID: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Settings updated successfully, but no additional data was returned by the server.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -170,6 +166,10 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>No settings found to restore.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings backed up for sunnylink Device ID:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -418,14 +418,6 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Reset Mapbox Access Token</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Are you sure you want to reset the Mapbox access token?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Reset sunnypilot Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -439,6 +431,58 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>sunnypilot requires the device to be mounted within 4° left or right and within 5° up or 9° down. sunnypilot is continuously calibrating, resetting is rarely required.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OFF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fleet Manager PIN:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset Access Tokens for Map Services</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset self-service access tokens for Mapbox, Amap, and Google Maps.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to reset access tokens for all map services?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Toggle Onroad/Offroad</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to unforce offroad?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unforce</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to force offroad?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Force</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disengage to Force Offroad</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unforce Offroad</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Force Offroad</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -600,6 +644,17 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <source>Pause Steering</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Steering Mode After Braking</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose how Automatic Lane Centering (ALC) behaves after the brake pedal is manually pressed in sunnypilot.
+
+Remain Active: ALC will remain active even after the brake pedal is pressed.
+Pause Steering: ALC will be paused after the brake pedal is manually pressed.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MapETA</name>
@@ -713,6 +768,14 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <source>Wrong password</source>
         <translation>كلمة مرور خاطئة</translation>
     </message>
+    <message>
+        <source>Scan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scanning...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>OffroadAlert</name>
@@ -774,6 +837,10 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <source>OpenStreetMap database is out of date. New maps must be downloaded if you wish to continue using OpenStreetMap data for Enhanced Speed Control and road name display.
 
 %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>sunnypilot is now in Forced Offroad mode. sunnypilot won&apos;t start until Forced Offroad mode is disabled. Go to &quot;Settings&quot; -&gt; &quot;Device&quot; -&gt; &quot;Unforce Offroad&quot; to exit Force Offroad mode.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -860,7 +927,17 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Delete Maps</source>
+        <source>DELETE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This will delete ALL downloaded maps
+
+Are you sure you want to delete all the maps?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, delete all the maps.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -880,7 +957,39 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <translation type="unfinished">اختيار</translation>
     </message>
     <message>
+        <source>Fetching Country list...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fetching State list...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>REFRESH</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UPDATE</source>
+        <translation type="unfinished">تحديث</translation>
+    </message>
+    <message>
+        <source>Download starting...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: Invalid download. Retry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download complete!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -899,6 +1008,34 @@ Warning: You are on a metered connection!</source>
     </message>
     <message>
         <source>Start Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>m </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Calculating...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Downloaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Calculating ETA...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ready</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Time remaining: </source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1144,6 +1281,38 @@ This may take up to a minute.</source>
         <source>sunnypilot supports Volkswagen MQB CC only platforms with this toggle enabled. Only enable this toggle if your car does not have ACC from the factory.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>HKG CAN: Smoother Stopping Performance (Beta)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Smoother stopping behind a stopped car or desired stopping event. This is only applicable to HKG CAN platforms using openpilot longitudinal control.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable Stock Toyota Longitudinal Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>sunnypilot will &lt;b&gt;not&lt;/b&gt; take over control of gas and brakes. Stock Toyota longitudinal control will be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Toyota TSS2 Longitudinal: Custom Tuning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Smoother longitudinal performance for Toyota/Lexus TSS2/LSS2 cars. Big thanks to dragonpilot-community for this implementation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable Toyota Stop and Go Hack</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>sunnypilot will allow some Toyota/Lexus cars to auto resume during stop and go traffic. This feature is only applicable to certain models. Use at your own risk.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SettingsWindow</name>
@@ -1380,6 +1549,14 @@ This may take up to a minute.</source>
         <source>5G</source>
         <translation>5G</translation>
     </message>
+    <message>
+        <source>SUNNYLINK</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>DISABLED</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SlcSettings</name>
@@ -1425,6 +1602,10 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>User Confirm: Inform the driver to change set speed of Adaptive Cruise Control to help the driver stay within the speed limit.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This platform defaults to &lt;b&gt;Auto&lt;/b&gt; mode. &lt;b&gt;User Confirm&lt;/b&gt; mode is not supported on this platform.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1522,11 +1703,6 @@ This may take up to a minute.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Download has started in the background.
-We STRONGLY suggest you to reset calibration, would you like to do that now?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Reset Calibration</source>
         <translation type="unfinished">إعادة ضبط المعايرة</translation>
     </message>
@@ -1534,41 +1710,71 @@ We STRONGLY suggest you to reset calibration, would you like to do that now?</so
         <source>Warning: You are on a metered connection!</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Downloading Driving model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Driving model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>downloaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(CACHED)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Downloading Navigation model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Navigation model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Downloading Metadata model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Metadata model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Downloads have failed, please try swapping the model!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fetching models...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>We STRONGLY suggest you to reset calibration. Would you like to do that now?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Continue</source>
+        <translation type="unfinished">متابعة</translation>
+    </message>
+    <message>
+        <source>on Metered</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download has started in the background.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SpeedLimitPolicySettings</name>
     <message>
         <source>Speed Limit Source Policy</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Nav
-Only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Map
-Only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Car
-Only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Nav
-First</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Map
-First</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Car
-First</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1598,6 +1804,37 @@ First</source>
     <message>
         <source>Car First: Car -&gt; Nav -&gt; Map</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nav</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Map</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Car</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>First</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SpeedLimitValueOffset</name>
+    <message>
+        <source>km/h</source>
+        <translation type="unfinished">كم/س</translation>
+    </message>
+    <message>
+        <source>mph</source>
+        <translation type="unfinished">ميل/س</translation>
     </message>
 </context>
 <context>
@@ -1660,6 +1897,21 @@ First</source>
     </message>
 </context>
 <context>
+    <name>SpeedLimitWarningValueOffset</name>
+    <message>
+        <source>km/h</source>
+        <translation type="unfinished">كم/س</translation>
+    </message>
+    <message>
+        <source>mph</source>
+        <translation type="unfinished">ميل/س</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation type="unfinished">غير متاح</translation>
+    </message>
+</context>
+<context>
     <name>SshControl</name>
     <message>
         <source>SSH Keys</source>
@@ -1708,10 +1960,6 @@ First</source>
 <context>
     <name>SunnylinkPanel</name>
     <message>
-        <source>sunnylink Dongle ID</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>N/A</source>
         <translation type="unfinished">غير متاح</translation>
     </message>
@@ -1724,10 +1972,6 @@ First</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Become a sponsor of sunnypilot to get early access to sunnylink features.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Manage Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1737,10 +1981,6 @@ First</source>
     </message>
     <message>
         <source>Are you sure you want to backup sunnypilot settings?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Backup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1768,10 +2008,6 @@ First</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sponsor</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Not Sponsor</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1781,6 +2017,78 @@ First</source>
     </message>
     <message>
         <source>Restoring...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable sunnylink</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Device ID </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is the master switch, it will allow you to cutoff any sunnylink requests should you want to do that.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>🎉Welcome back! We&apos;re excited to see you&apos;ve enabled sunnylink again! 🚀</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>👋Not going to lie, it&apos;s sad to see you disabled sunnylink 😢, but we&apos;ll be here when you&apos;re ready to come back 🎉.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A reboot is required to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>stop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>all connections and processes from sunnylink.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If that&apos;s not a problem for you, you can ignore this.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reboot Now!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Become a sponsor of sunnypilot to get early access to sunnylink features when they become available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pair GitHub Account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PAIR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pair your GitHub account to grant your device sponsor benefits, including API access on sunnylink.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Paired</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not Paired</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1800,6 +2108,26 @@ First</source>
     </message>
     <message>
         <source>Join our community on Discord at https://discord.gg/sunnypilot and reach out to a moderator to confirm your sponsor status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scan the QR code to login to your GitHub account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Follow the prompts to complete the pairing process</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Re-enter the &quot;sunnylink&quot; panel to verify sponsorship status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If sponsorship status was not updated, please contact a moderator on Discord at https://discord.gg/sunnypilot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pair your GitHub account</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1978,43 +2306,7 @@ First</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;font color=&apos;yellow&apos;&gt;Dynamic Lane Profile is not available with the current Driving Model [&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;font color=&apos;yellow&apos;&gt;].&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;font color=&apos;yellow&apos;&gt;Custom Offsets is not available with the current Driving Model [&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>NNLC is currently not available on this platform.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Match: &quot;Exact&quot; is ideal, but &quot;Fuzzy&quot; is fine too. Reach out to the sunnypilot team in the &lt;font color=&apos;white&apos;&gt;#tuning-nnlc channel at the sunnypilot Discord server&lt;/font&gt; if there are any issues.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;font color=&apos;yellow&apos;&gt;⚠️ Start the car to check car compatibility&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;font color=&apos;yellow&apos;&gt;⚠️ NNLC Not Loaded&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;font color=#00ff00&gt;✅ NNLC Loaded&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Formerly known as &lt;b&gt;&quot;NNFF&quot;&lt;/b&gt;, this replaces the lateral &lt;b&gt;&quot;torque&quot;&lt;/b&gt; controller with one using a neural network trained on each car&apos;s (actually, each separate EPS firmware) driving data for increased controls accuracy.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reach out to the sunnypilot team in the &lt;font color=&apos;white&apos;&gt;&lt;b&gt;#tuning-nnlc channel at the sunnypilot Discord server&lt;/b&gt;&lt;/font&gt; with feedback, or to provide log data for your car if your car is currently unsupported.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2023,6 +2315,66 @@ First</source>
     </message>
     <message>
         <source>Default is Laneless. In Auto mode, sunnnypilot dynamically chooses between Laneline or Laneless model based on lane recognition confidence level on road and certain conditions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dynamic Lane Profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Offline Only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Real-time and Offline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dynamic Lane Profile is not available with the current Driving Model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Custom Offsets is not available with the current Driving Model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Match: &quot;Exact&quot; is ideal, but &quot;Fuzzy&quot; is fine too. Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server if there are any issues: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start the car to check car compatibility</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>NNLC Not Loaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>NNLC Loaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fuzzy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Exact</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server and donate logs to get NNLC loaded for your car: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Match</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server with feedback, or to provide log data for your car if your car is currently unsupported: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Formerly known as &lt;b&gt;&quot;NNFF&quot;&lt;/b&gt;, this replaces the lateral &lt;b&gt;&quot;torque&quot;&lt;/b&gt; controller with one using a neural network trained on each car&apos;s (actually, each separate EPS firmware) driving data for increased controls accuracy.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2201,10 +2553,6 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Use Planner Speed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Enable Dynamic Experimental Control</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2232,6 +2580,10 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
         <source>Stock is recommended. In aggressive/maniac mode, openpilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode openpilot will stay further away from lead cars.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Use Planner Speed</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>TorqueFriction</name>
@@ -2243,6 +2595,14 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
         <source>Adjust Friction for the Torque Lateral Controller. &lt;b&gt;Live&lt;/b&gt;: Override self-tune values; &lt;b&gt;Offline&lt;/b&gt;: Override self-tune offline values at car restart.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Real-time and Offline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Offline Only</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>TorqueMaxLatAccel</name>
@@ -2252,6 +2612,14 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     </message>
     <message>
         <source>Adjust Max Lateral Acceleration for the Torque Lateral Controller. &lt;b&gt;Live&lt;/b&gt;: Override self-tune values; &lt;b&gt;Offline&lt;/b&gt;: Override self-tune offline values at car restart.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Real-time and Offline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Offline Only</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2294,6 +2662,10 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     <name>VehiclePanel</name>
     <message>
         <source>Updating this setting takes effect when the car is powered off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select your car</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2422,6 +2794,26 @@ Speed</source>
     </message>
     <message>
         <source>Max</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Developer UI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display real-time parameters and metrics from various sources.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display Metrics Below Chevron</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display useful metrics below the chevron that tracks the lead car (only applicable to cars with openpilot longitudinal control).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display Temperature on Sidebar</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
